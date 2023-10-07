@@ -2,9 +2,44 @@
     font-size: 1.5em;
     line-height: 1.5em;
     color:orange;
+    margin: 0 auto;
+    border-style: solid;
 }
 
 #active {
     background-color: white;
     color: orangered;
 }
+
+img {
+    width: 60%;
+}
+p {
+    width: 80%;  
+}
+a {
+    font-size: 1.5em;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+nav,footer {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 5px;
+}
+footer p{
+    font-size: 20px;
+    margin: 20px auto;
+}
+nav a:hover {
+    color:orangered;
+}
+

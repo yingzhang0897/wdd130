@@ -1,0 +1,33 @@
+body {
+    background-color: palevioletred;
+    max-width: 1500px;
+    min-width: 500px
+    width = 400px
+}
+header {
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+}
+header h1:hover {
+    color: black;
+}
+div {
+    margin-left: 37%;
+}
+img {
+    display: block;
+    margin: 30px auto;
+    width: 10%; 
+    height: 10%;
+}
+
+main h2 {
+    margin-left: 35%;
+    margin-right: 35%;
+    color:white;  
+}
+footer {
+    color:black;
+    text-align: center;
+}
