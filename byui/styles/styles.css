@@ -1,27 +1,42 @@
+* {
+    border: 2px solid blue;
+}
+nav {
+    margin:0 auto;
+}
+nav a {
+    font-size: o.5em;
+    color: white;
+    text-align: right;
+
+}
+
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
     color:orange;
     margin: 0 auto;
+    text-align: center;
     border-style: solid;
+}
+body {
+    font-size: 40px;
 }
 
 #active {
     background-color: white;
     color: orangered;
 }
-
+* {
+    width: 90%;
+}
 img {
     width: 60%;
 }
-p {
-    width: 80%;  
-}
-a {
-    font-size: 1.5em;
-    color: white;
-}
+
+
 h1 {
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -29,17 +44,19 @@ img {
     display: block;
     margin: 0 auto;
 }
-nav,footer {
+header,footer {
     text-align: center;
     background-color: steelblue;
     color: white;
-    padding: 5px;
+    padding: 2px;
 }
 footer p{
-    font-size: 20px;
-    margin: 20px auto;
+    font-size: 30px;
+    margin: 10px auto;
+    text-align: center;
 }
 nav a:hover {
     color:orangered;
 }
+
 
