@@ -1,16 +1,34 @@
 * {
     border: 2px solid blue;
 }
-nav {
-    margin:0 auto;
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center; 
+    font-size: 40px; 
+    background-color: aliceblue;  
+}
+
+header,footer {
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+   
+}
+nav { 
+    padding: 10px;
+    background-color: orange;
 }
 nav a {
     font-size: o.5em;
     color: white;
-    text-align: right;
+    text-align: center;
+    padding: 5px;
 
 }
-
+img {
+    width: 60%;
+}
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
@@ -19,24 +37,16 @@ nav a {
     text-align: center;
     border-style: solid;
 }
-body {
-    font-size: 40px;
-}
+
 
 #active {
     background-color: white;
     color: orangered;
 }
-* {
-    width: 90%;
-}
-img {
-    width: 60%;
-}
 
 
 h1 {
-    margin: 0 auto;
+    margin: 50px auto ;
     text-align: center;
 }
 
@@ -44,16 +54,14 @@ img {
     display: block;
     margin: 0 auto;
 }
-header,footer {
-    text-align: center;
-    background-color: steelblue;
-    color: white;
-    padding: 2px;
-}
+
 footer p{
     font-size: 30px;
-    margin: 10px auto;
+    margin:  auto;
     text-align: center;
+    background-color: orange;
+    padding: 20px;
+   
 }
 nav a:hover {
     color:orangered;
