@@ -1,23 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 #content {
+    background-color:#FFF8F0;
     margin: 0 auto;
     max-width: 1600px;
-    
+    font-family: Roboto, sans-serif;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+.home-title{
+    font-family: 'Rock Salt', 'Bradley Hand',cursive;
+    font-size: 2em;
+    margin-top: 20px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.msg h2{
+    font-family: 'Rock Salt', 'Bradley Hand',cursive;
+    font-size: 2em;
+    margin: 0;
+   
+}
+.msg p{
+    font-size: 1.2em;   
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.msg {
+    background-color: #8ecae6;
+    color: #392F5A;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 50px;
+  }
+
 nav a {
     text-align: center;
     background-color: #8ecae6;
     color: #023047;
     text-decoration: none;
+    padding: 12px;
 }
 #hero-img {
     display: block;
     margin: 0 auto;
     width: 100%;
 }
-#hero-msg h1, #hero-msg h4{
+#hero-msg {
     text-align: center;
     background-color:#8ecae6 ;
     color: #023047;
+    padding: 30px;
 }
 .button-box{
     text-align: center;
@@ -28,6 +66,7 @@ main {
 .mountains {
     display: block;
     margin-left: 0%;
+    margin-top: 50px;
 }
 #background {
     height: 725px;
@@ -48,20 +87,29 @@ nav a:hover{
     background-color: #F4D06F;
     color: #023047;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.card-img {
+    border: 10px solid bisque;
 }
 .book:hover,.join:hover {
     background-color: #8ecae6;
     color:#392F5A
 }
-
-.msg h2, .msg p {
-    background-color: #8ecae6;
-    color: #392F5A;
+main section image {
+    box-sizing: border-box;
 }
 footer {
     background-color: #8ecae6;
     color: #392F5A;
+    padding: 15px 20px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer a{
     background-color: #F4D06F;
@@ -75,6 +123,7 @@ footer a:hover{
 }
 .logo, .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer p{
     font-size: 1.2em;
