@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+div.small-images {
+    background-color: gray;
+}
+
+img.block-images  {
+    max-width: 1200px;
+}
+
+img.inline-images  {
+    max-width: 400px
+    border-radius: 50%
+}
