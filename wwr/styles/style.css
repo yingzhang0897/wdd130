@@ -5,6 +5,23 @@
     max-width: 1600px;
     font-family: Roboto, sans-serif;
 }
+header {
+    background-color: #283618;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#logo-link {
+    padding-top: 5px;
+    justify-self:center;
+    align-self: center;
+    z-index: 1;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    z-index: 1;
+}
 body {
     margin: 0;
     padding: 0;
@@ -16,6 +33,7 @@ h2 {
     font-family: 'Rock Salt', 'Bradley Hand',cursive;
     font-size: 2em;
     margin-top: 20px;
+    color: beige;
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
@@ -40,11 +58,22 @@ h2 {
   }
 
 nav a {
+    font-size: 20px;
     text-align: center;
-    background-color: #8ecae6;
-    color: #023047;
+    color: white;
     text-decoration: none;
     padding: 12px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: -100px;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -0.1;
 }
 #hero-img {
     display: block;
@@ -53,9 +82,15 @@ nav a {
 }
 #hero-msg {
     text-align: center;
-    background-color:#8ecae6 ;
     color: #023047;
     padding: 30px;
+    grid-column: 2;
+    grid-row: 1; 
+    margin-top: 100px;
+}
+#hero-msg h4{
+    color: white;
+    font-size: 23px;
 }
 .button-box{
     text-align: center;
@@ -63,22 +98,56 @@ nav a {
 main {
     text-align: center;
 }
-.mountains {
-    display: block;
-    margin-left: 0%;
-    margin-top: 50px;
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
 }
+.card-img,.mountains {
+    width: 100%;
+    height:100%
+}
+
+.rivers-card{
+    grid-template-columns: 2/4 ;
+    grid-template-rows: 2;
+} 
+.camping-card {
+    grid-template-columns: 5/7 ;
+    grid-template-rows: 2;
+} 
+.rapids-card {
+    grid-template-columns: 8/10 ;
+    grid-template-rows: 2; 
+}
+ 
+    
 #background {
     height: 725px;
     margin: 20px auto;
     background-color: #8ecae6;
+    grid-template-columns: 1/11;
+    grid-template-rows: 4/9;
+}
+.mountains {
+    display: block;
+    margin-left: 0%;
+    margin-top: 50px;
+    grid-template-columns: 2/7;
+    grid-template-rows: 5/8;
+}
+.msg {
+    grid-template-columns: 6/10;
+    grid-template-rows: 6;
+}
+.card-img,.mountains {
+    width: 100%;
+    height:100%
 }
 body {
     background-color: #fcfbfb;
 }
-header {
-    background-color: #8ecae6;
-}
+
 nav a:hover{
     background-color: #FFF8F0;
     color: #392F5A;
