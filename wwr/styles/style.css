@@ -45,7 +45,7 @@ h2 {
 #hero-box{
     grid-column: 1/4;
     grid-row: 1/3;
-    z-index: -0.1;
+   
 }
 #hero-img {
     display: block;
@@ -77,9 +77,11 @@ h2 {
     display: grid;
     grid-template-columns: repeat(10,1fr);
 }
-.rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
+.card-img,.mountains {
+    width: 100%;
+    height:100%
 }
+
 .rivers-card{
     grid-template-columns: 2/4 ;
     grid-template-rows: 2;
@@ -92,7 +94,29 @@ h2 {
     grid-template-columns: 8/10 ;
     grid-template-rows: 2; 
 }
- 
+#background {
+    height: 725px;
+    margin: 20px auto;
+    background-color: #8ecae6;
+    grid-template-columns: 1/11;
+    grid-template-rows: 4/9;
+}
+.mountains {
+    display: block;
+    margin-left: 0%;
+    margin-top: 50px;
+    grid-template-columns: 2/7;
+    grid-template-rows: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg {
+    grid-template-columns: 6/10;
+    grid-template-rows: 6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
 .msg h2{
     font-family: 'Rock Salt', 'Bradley Hand',cursive;
     font-size: 2em;
@@ -118,34 +142,6 @@ main {
     text-align: center;
 }
 
-
-.card-img,.mountains {
-    width: 100%;
-    height:100%
-}
-
-
-    
-#background {
-    height: 725px;
-    margin: 20px auto;
-    background-color: #8ecae6;
-    grid-template-columns: 1/11;
-    grid-template-rows: 4/9;
-}
-.mountains {
-    display: block;
-    margin-left: 0%;
-    margin-top: 50px;
-    grid-template-columns: 2/7;
-    grid-template-rows: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.msg {
-    grid-template-columns: 6/10;
-    grid-template-rows: 6;
-    box-shadow: 5px 5px 10px #6f7364;
-}
 .card-img,.mountains {
     width: 100%;
     height:100%
