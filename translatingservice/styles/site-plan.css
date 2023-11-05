@@ -14,10 +14,10 @@ Fonts are separated by a | */
   --paragraph-font: Edu TAS Beginner, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #C8B6FF;  /* headlines on a white background */ 
-  --headline-color-on-color: #E7C6FF; /* headlines on a colored background */ 
+  --headline-color-on-white: #6930c3;  /* headlines on a white background */ 
+  --headline-color-on-color: #023e8a; /* headlines on a colored background */ 
   --paragraph-color-on-white: #B8C0FF; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
   --paragraph-background-color: #BBD0FF  ;
   --nav-link-color: #BBD0FF;
   --nav-background-color: #B8C0FF;
