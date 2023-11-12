@@ -130,6 +130,18 @@ h2 {
     grid-column: 6/10;
     grid-row: 6;
     box-shadow: 5px 5px 10px #6f7364;
+    background-color: rgb(196, 194, 133);
+    color: #392F5A;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 50px;
+}
+.little-msg {
+    grid-column: 3/9;
+    grid-row: 6/9;
+    background-color: rgb(195, 195, 150);
+    box-shadow: 5px 5px 10px #6f7364;
+    font-family: 'Rock Salt', 'Bradley Hand',cursive;
 }
 .rivers-card, .camping-card, .rapids-card,.Idaho-card, .Utah-card, .Arizona-card {
     margin: 200px 0;
@@ -145,13 +157,7 @@ h2 {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-.msg {
-    background-color: rgb(196, 194, 133);
-    color: #392F5A;
-    line-height: 1.5em;
-    padding: 35px;
-    margin-top: 50px;
-  }
+
 main {
     text-align: center;
 }
