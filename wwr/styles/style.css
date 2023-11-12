@@ -162,9 +162,9 @@ h2 {
     font-family: 'Rock Salt', 'Bradley Hand',cursive;
     padding-bottom: 15px;
     padding-top: 15px;
-    grid-column: 3/9;
-    grid-row: 4/6;
     box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 4/8;
+    grid-row: 7;
 }
 main {
     text-align: center;
