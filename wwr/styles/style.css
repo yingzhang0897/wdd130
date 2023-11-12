@@ -115,19 +115,13 @@ h2 {
     grid-row: 6;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.rivers-card, .camping-card, .rapids-card {
+.rivers-card, .camping-card, .rapids-card,.Idaho-card, .Utah-card, .Arizona-card {
     margin: 200px 0;
 }
 .msg h2{
     font-family: 'Rock Salt', 'Bradley Hand',cursive;
     font-size: 2em;
-    margin: 0;
-   
-}
-.msg h1{
-    font-family: 'Rock Salt', 'Bradley Hand',cursive;
-    font-size: 2em;
-    justify-self: center;
+    margin: 0; 
 }
 
 .msg p{
@@ -142,6 +136,19 @@ h2 {
     padding: 35px;
     margin-top: 50px;
   }
+.introduction {
+    background-color: rgb(196, 194, 133);
+    color: #392F5A;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 50px;
+    font-size: 1.2em;   
+    padding-bottom: 15px;
+    padding-top: 15px;
+    grid-column: 3/9;
+    grid-row: 4/6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 main {
     text-align: center;
 }
