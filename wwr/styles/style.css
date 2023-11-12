@@ -152,20 +152,6 @@ h2 {
     padding: 35px;
     margin-top: 50px;
   }
-.introduction {
-    background-color: rgb(196, 194, 133);
-    color: #392F5A;
-    line-height: 1.5em;
-    padding: 35px;
-    margin-top: 50px;
-    font-size: 1.2em;  
-    font-family: 'Rock Salt', 'Bradley Hand',cursive;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    box-shadow: 5px 5px 10px #6f7364;
-    grid-column: 4/8;
-    grid-row: 7;
-}
 main {
     text-align: center;
 }
