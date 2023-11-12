@@ -124,6 +124,12 @@ h2 {
     margin: 0;
    
 }
+.msg h1{
+    font-family: 'Rock Salt', 'Bradley Hand',cursive;
+    font-size: 2em;
+    justify-self: center;
+}
+
 .msg p{
     font-size: 1.2em;   
     padding-bottom: 15px;
