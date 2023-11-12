@@ -82,17 +82,32 @@ h2 {
     height:100%
 }
 
-.rivers-card,.Idaho-card {
+.rivers-card {
     grid-column: 2/4 ;
     grid-row: 2/3;
 } 
-.camping-card,.Utah-card {
+.Idaho-card {
+    grid-column: 2/4;
+    grid-row: 2/5;
+}
+.camping-card {
     grid-column: 5/7 ;
     grid-row: 2/3;
 } 
-.rapids-card,.Arizona-card {
+.Utah-card {
+    grid-column: 5/7 ;
+    grid-row: 2/5;
+}
+.rapids-card {
     grid-column: 8/10 ;
     grid-row: 2/3; 
+}
+.Arizona-card {
+    grid-column: 8/10 ;
+    grid-row: 2/5; 
+}
+.rivers-grid h4 {
+    font-size: larger;
 }
 
 #background {
