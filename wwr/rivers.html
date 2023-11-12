@@ -1,56 +1,68 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 1em 0;
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 10%;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.hero {
-    text-align: center;
-    padding: 50px 0;
-}
-
-.rivers article {
-    margin-bottom: 30px;
-}
-
-.rivers img {
-    width: 100%;
-    height: auto;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-.social-media {
-    /* Style your social media links */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash White Water Rafting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Splash White Water Rafting</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rivers">Rivers</a></li>
+                    <li><a href="#site-plan">Site Plan</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Great rivers Great choice</h2>
+            <p>Have some great fun along with enjoying picturesque sceneries</p>
+            <button>Get Started</button>
+            <button>Learn More</button>
+        </section>
+        <section class="rivers">
+            <article id="idaho">
+                <h3>Main Fork of the Salmon River</h3>
+                <p>Nestled deep in the Frank Church Wilderness of No Return winds the Salmon river. The Salmon was given the nickname long ago as the River of No Return by the people living near it because of the number of folks that came to visit and fell so in love with the rugged beauty of the river that they never left</p>
+                <img src="images/images/pagerivers/Idaho.jpeg" alt="Main Fork of the Salmon River">
+            </article>
+            <article id="utah">
+                <h3>Desolation and Gray Canyon</h3>
+                <p>Winding through canyons in central Utah, in some of the most desolate land anywhere, the Green river flows towards the mighty Colorado river and the sea. High grey stone cliffs, beautiful desert scenery, and great rapids have made this run famous. This 84-mile trip runs from from Sand Wash to Swaseys Rapid (just outside Green River Utah) and boasts outstanding scenery, interesting geologic formations, evidence of prehistoric and historic human activity, and great whitewater opportunities</p>
+                <img src="gray-canyon.jpg" alt="Desolation and Gray Canyon">
+            </article>
+            <article id="arizona">
+                <h3>Grand Canyon</h3>
+                <p>Grand Canyon river rafting combines world-class whitewater with breathtaking scenery to make one truly unforgettable river experience. The canyon is filled not only with exhilarating whitewater rapids, but with side canyons and ancient indian ruins accessible only by river</p>
+                <img src="grand-canyon.jpg" alt="Grand Canyon">
+            </article>
+        </section>
+        <section class="experience">
+            <h2>Have an unforgettable experience</h2>
+        </section>
+    </main>
+    <footer>
+        <p>White Water Rafting &copy; 2023-YING ZHANG</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contact-us.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/images/facebook.png" alt="facebook icon ">   
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/images/twitter.png" alt="twitter icon ">   
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/images/instagram.png" alt="ins icon ">   
+            </a>
+        </div>
+    </footer>   
+</body>
+</html>
