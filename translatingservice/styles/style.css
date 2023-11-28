@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto&family=Rock+Salt&display=swap');
+#content {
+    background-color:#BBD0FF;
+    margin:0 auto;
+    max-width: 1600px;
+    font-family:'Edu TAS Beginner', cursive;
+}
+header {
+    background-color: #B8C0FF ;
+    display: grid;
+    grid-template-columns: 180px auto;
+}
+#logo-link {
+    padding-top: 5px;
+    justify-self:center;
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+nav a {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+#hero-box{
+    grid-area: 1 / 2 /span 2/ span 1;
+}
+#hero-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+#hero-msg {
+    justify-self: cenetr;
+    align-self: center;
+    font-family: 'Rock Salt', 'Bradley Hand',cursive;
+    font-size: 2em;
+    margin-top: 20px;
+    color: #6930c3;  
+}
+
+.button1, .button2, .button3 {
+    font-size: 20px;
+    padding: 12px 28px;
+    display: inline-block;
+    border: 2px solid #04AA6D;
+}
+#story-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+div.polaroid1 {
+    grid-area: 1 / 1 /span 1 / span 1;  
+}
+div.polaroid2 {
+    grid-area: 2 / 1 /span 1 / span 1;
+}
+
+#story-card h3 {
+    text-align: center;
+    padding: 5px 10px;
+    background-color: white;
+    margin-top: -15px;
+}
+
+#story-card p {
+    grid-area: 1 / 2 / span 2 / span 1;
+    width: 80%;
+    margin-left: 40px;
+    font-size: 1.7em;
+}
+
+#reason-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#reason-card h2 {
+    grid-area: 1 / 1 /span 1 / span 2;
+    font-size: 1.5em;
+}
+.img3 {
+    grid-area: 2 / 1 /span 1 / span 1;
+}
+.img4 {
+    grid-area: 2 / 2 /span 1 / span 1;
+}
+#reason-card h4 {
+    grid-area: 3 / 1 /span 1 / span 2;
+    font-size: 1.5em;
+}
+
+#blog-card {
+    background-color: #BBD0FF;
+    padding: 50px 40px;
+    text-align: center;
+}
+.button-box {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3em;
+}
+
+footer {
+    font-size: 1.5em;
+}
+
+
+
