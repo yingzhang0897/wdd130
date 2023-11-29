@@ -42,7 +42,6 @@ nav a {
     width: 100%;
 }
 #hero-msg {
-    justify-self: cenetr;
     align-self: center;
     font-family: 'Rock Salt', 'Bradley Hand',cursive;
     font-size: 2em;
@@ -193,7 +192,6 @@ div.polaroid2 {
     display: block;
     margin: 0 auto;
     width: 30%;
-    justify-self: cenetr;
   }
 
   .home-grid h2 {
