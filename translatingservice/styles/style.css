@@ -201,7 +201,7 @@ div.polaroid2 {
   }
 
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     .topnav .search-container {
       float: none;
     }
