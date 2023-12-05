@@ -4,22 +4,22 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto&family=Rock+Salt&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #C8B6FF   ;
-  --secondary-color: #d5bdaf ;
-  --accent1-color: #B8C0FF;
-  --accent2-color: #BBD0FF;
+  --primary-color: #BBD0FF ;
+  --secondary-color:#6930c3 ;
+  --accent1-color: hsl(233, 100%, 86%);
+  --accent2-color: #dfcdc3 ;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Rock Salt";
   --paragraph-font: Edu TAS Beginner, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #6930c3;  /* headlines on a white background */ 
-  --headline-color-on-color: #023e8a; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #d4a373; /* paragraph text on a white background */ 
+  --headline-color-on-white: #dfcdc3;  /* headlines on a white background */ 
+  --headline-color-on-color: #6930c3; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #dfcdc3; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
   --paragraph-background-color: #BBD0FF  ;
-  --nav-link-color: #023e8a;
+  --nav-link-color: #6930c3;
   --nav-background-color: #B8C0FF;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #BBD0FF;

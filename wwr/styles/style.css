@@ -52,26 +52,20 @@ h2 {
     width: 100%;
 }
 #hero-msg {
-    text-align: center;
-    color: #023047;
+    text-align: center;;
     padding: 30px;
+    color: white;
     grid-column: 2;
     grid-row: 1; 
     margin-top: 100px;
-}
-#hero-msg h4{
-    color: white;
     font-size: 23px;
+    font-family: 'Rock Salt', 'Bradley Hand',cursive;
 }
+
 .button-box{
     text-align: center;
 }
-.home-title{
-    font-family: 'Rock Salt', 'Bradley Hand',cursive;
-    font-size: 2em;
-    margin-top: 20px;
-    color: beige;
-}
+
 .home-grid,.rivers-grid {
     display: grid;
     grid-template-columns: repeat(10,1fr);
