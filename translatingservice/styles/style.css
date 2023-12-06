@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto&family=Rock+Salt&display=swap');
+
 #content {
     background-color:#BBD0FF;
     margin:0 auto;
@@ -40,7 +41,7 @@ nav a {
 #hero-img {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     margin: 20px 10px;
 }
 #hero-msg {
@@ -149,7 +150,8 @@ div.polaroid2 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;;
   }
   
   .topnav a:hover {
@@ -193,23 +195,27 @@ div.polaroid2 {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
+    grid-gap: 10px;
   }
+
 
   .card-img {
     display: block;
     margin: 0 auto;
     width: 90%;
-    margin-bottom: 20px;
+    margin: 20px 10px;
+    padding:10px;
   }
 
   .icon {
     display: block;
     margin: 0 auto;
     width: 30%;
+    margin: 20px 20px;
+    text-align: center;
   }
   .work-grid h2 {
-    text-align: center;
-    margin: 50px 0;
+    margin: 50px 20px;
   }
 
   /*page 2*/
@@ -256,11 +262,19 @@ div.polaroid2 {
     grid-area: 2 / 2 / span 1 / span 1;
   }
 
-  .question h1 {
-    font-size: 3em;
+  .question {
+    font-size: 2em;
     padding: 30px;
-    margin-top:-100px ;
+    margin: 20px 10px;
     text-align: center;
+  }
+
+  footer {
+    margin:40px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   
   @media screen and (max-width: 900px) {
@@ -280,13 +294,7 @@ div.polaroid2 {
     }
   }
 
-footer {
-  margin:40px;
-  font-size: 1.5em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+
 
 
 
