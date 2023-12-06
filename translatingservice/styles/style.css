@@ -181,7 +181,7 @@ div.polaroid2 {
     padding: 6px 10px;
     margin-top: 8px;
     margin-right: 16px;
-    background: #ddd;
+    background: #dfcdc3;
     font-size: 30px;
     border: none;
     cursor: pointer;
@@ -292,7 +292,7 @@ div.polaroid2 {
       padding: 14px;
     }
     .topnav input[type=text] {
-      border: 1px solid #ccc;  
+      border: 1px solid #dfcdc3;  
     }
   }
 
